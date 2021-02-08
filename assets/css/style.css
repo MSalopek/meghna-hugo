@@ -311,7 +311,7 @@ a:hover {
 }
 
 .title h2 span {
-  color: #57cbcc;
+  color: #688e71;
 }
 
 .title p {
@@ -573,6 +573,7 @@ a:hover {
 
 .about .block .icon-box {
   position: relative;
+  color: whitesmoke;
   width: 160px;
   height: 92.38px;
   background-color: transparent;
@@ -615,7 +616,7 @@ a:hover {
 }
 
 .about .block .icon-box h3 {
-  color: #afbac4;
+  color: white;
 }
 
 /*=================================================================
@@ -637,7 +638,7 @@ a:hover {
 
 .about-2 .content-block .media i {
   font-size: 30px;
-  color: #46654a;
+  color: whitesmoke;
 }
 
 .about-2 .content-block .media h4 {
@@ -781,9 +782,10 @@ a:hover {
   Item counter section
 ==================================================================*/
 .counters-item {
+  color: whitesmoke;
   padding: 25px 0;
   margin-bottom: 10px;
-  background: #292F36;
+  background: #46654a;
 }
 
 .counters-item i {
@@ -1273,6 +1275,14 @@ a:hover {
   margin: 0 0 40px;
 }
 
+.post-single-content p {
+  color: black;
+}
+
+.post-single-content h1 {
+  color: black;
+}
+
 .post-meta {
   font-size: 13px;
   margin: 20px 0 0;
@@ -1586,6 +1596,10 @@ input#e-mail,
 #scrollUp:hover {
   background-color: #57cbcc;
   border: 1px solid #57cbcc;
+}
+
+#feature {
+  background-color: #46654a;
 }
 
 /*=================================================================
