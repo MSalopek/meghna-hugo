@@ -14,7 +14,7 @@ html {
 
 body {
   background-color: #e3e9d7;
-  font-family: "Anaheim", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: #737f8a;
   -webkit-font-smoothing: antialiased;
 }
@@ -26,12 +26,12 @@ h4,
 h5,
 h6 {
   font-weight: 400;
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: white;
 }
 
 p {
-  font-family: "Quattrocento Sans", sans-serif;
+  font-family: "Helvetica", sans-serif;
   color: whitesmoke;
 }
 
@@ -49,12 +49,12 @@ pre {
 ::-moz-selection {
   /* Code for Firefox */
   color: #fff;
-  background: #57cbcc;
+  background: #6CB670;
 }
 
 ::selection {
   color: #fff;
-  background: #57cbcc;
+  background: #6CB670;
 }
 
 hr {
@@ -128,9 +128,10 @@ a:hover {
   margin: 15px auto 0;
   position: relative;
   width: 30%;
+  border: 1px solid;
 }
 
-.border-meghna:before {
+/* .border-meghna:before {
   background-color: #fff;
   content: '';
   height: 6px;
@@ -140,11 +141,11 @@ a:hover {
   top: -4px;
   width: 50px;
   background-color: #46654a;
-}
+} */
 
 .color {
   /* color: #6CB670; */
-  color: #46654a;
+  color: #6CB670;
 }
 
 .sub-title {
@@ -309,9 +310,9 @@ a:hover {
   font-size: 38px;
   color: #fff;
 }
-
+/* BOJA */
 .title h2 span {
-  color: #688e71;
+  color: #467531;
 }
 
 .title p {
@@ -563,7 +564,7 @@ a:hover {
 }
 
 .about .block:hover {
-  border-bottom: 2px solid #57cbcc;
+  border-bottom: 2px solid whitesmoke;
 }
 
 .about .block:hover .icon-box {
@@ -964,7 +965,7 @@ a:hover {
   border-left: 1px solid rgba(236, 239, 241, 0.07);
   border-top: 1px solid rgba(236, 239, 241, 0.07);
   margin-bottom: 40px;
-  box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7);
+  /* box-shadow: 2px 2px 5px rgba(44, 44, 44, 0.3), 13px 13px 0 rgba(255, 255, 255, 0.7); */
 }
 
 .service-block .service-icon {
