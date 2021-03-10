@@ -6,7 +6,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 offset-lg-2 text-center">
-        <h1><span class="color">{{ .Title }}</span></h1>
+        <h1 style="color:#46654a;">{{ .Title }}</h1>
         <ul class="list-inline mb-50">
           <li class="list-inline-item"><a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize }}/"><span class="color">{{ .Params.Author }}</span></a></li>
           <li class="list-inline-item">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</li>
