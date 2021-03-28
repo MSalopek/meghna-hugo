@@ -425,7 +425,7 @@ a:hover {
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show>.nav-link {
-  color: #57cbcc;
+  color: #cfcfcf;
 
 }
 
@@ -891,7 +891,7 @@ a:hover {
 }
 
 .portfolio-filter .btn.active {
-  border-color: #57cbcc;
+  border-color: #cfcfcf;
 }
 
 .portfolio-block {
