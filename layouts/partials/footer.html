@@ -18,12 +18,16 @@
 					<div class="div" style="display:flex; flex-direction: row; justify-content: center; align-items: center">
 
 						<a href="{{ site.Home.Permalink }}" style="padding-right: 20px; padding-top: 20px;">
-							<img src="{{ site.Params.logo| absURL }}" alt="{{ site.Title }}" height="42" />
+							<img src="{{ site.Params.logo| absURL }}" alt="{{ site.Title }}" height="50" />
 						</a>
 						<br>
-						<a href="{{ site.Home.Permalink }}">
+						<a href="{{ site.Home.SpockLink }}">
 							<p style="margin:0; padding: 0;">Supported by:</p>
-							<img src="{{ site.Params.spock | absURL }}" alt="spock_logo" height="42" />
+							<img src="{{ site.Params.spock | absURL }}" alt="spock_logo" height="50" weight="40" />
+						</a>
+						<br>
+						<a href="{{ site.Params.PbfLink }}">
+							<img style="margin-top: 20px;" src="{{ site.Params.pbf | absURL }}" alt="pbf_logo" height="65" width="70"/>
 						</a>
 					</div>
 					<p>{{ site.Params.copyright | markdownify }}</p>
